@@ -1,0 +1,16 @@
+<!--pages/index/animate/animate.wxml-->
+<!-- <view animation="{{animationData}}" style="background:red;height:100rpx;width:100rpx"></view>
+<button bindtap='test'>点击</button> -->
+<view class='m-slider'>
+ <view class='cnt' bindtouchstart='touchstart' bindtouchmove='touchmove' bindtouchend='touchend' animation="{{animationData}}">
+   <view class='li'>
+     <image src='http://pic.gvrcraft.com/pic/title0.png'></image>
+   </view>
+     <view class='li'>
+     <image src='http://pic.gvrcraft.com/pic/title1.png'></image>
+   </view>
+     <view class='li'>
+     <image src='http://pic.gvrcraft.com/pic/title2.png'></image>
+   </view>
+ </view>
+</view>

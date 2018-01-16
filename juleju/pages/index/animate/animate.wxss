@@ -1,0 +1,5 @@
+/* pages/index/animate/animate.wxss */
+.m-slider{width:100%;overflow:hidden;}
+.m-slider .cnt{position:relative;left:0;width:3000px;}
+.m-slider .cnt .li{float:left;width:750rpx;}
+.m-slider .cnt image{display:inline-block;width:750rpx;}

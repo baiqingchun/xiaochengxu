@@ -1,0 +1,23 @@
+/* pages/index/gather/gather.wxss */
+page{
+  overflow-x:hidden;
+width:100%;
+
+}
+ .will_list{
+   /* padding-left: 40rpx; */
+   margin-top: 26rpx;
+   padding-bottom: 50rpx;
+   /* padding-right: 150rpx; */
+   white-space:nowrap;
+
+   /* height: 200rpx; */
+   /* width: 200%; */
+ }
+ .list_block{
+   display: inline-block
+ }
+ .list_block image{
+   width: 300rpx;
+   height: 430rpx;
+ }
