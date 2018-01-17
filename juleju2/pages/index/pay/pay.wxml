@@ -1,0 +1,10 @@
+<!--pages/index/pay/pay.wxml-->
+<view class='container'>
+   <view class='header'></view>
+   <view class='content'></view>
+   <view class='footer'>
+     <text>{{total}}</text>
+     <button bindtap='pay'>支付</button>
+     <button bindtap='addpay'>添加支付</button>
+   </view>
+</view>

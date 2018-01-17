@@ -1,0 +1,25 @@
+/**index.wxss**/
+.content{
+  /* width: 100%; */
+    padding: 0 15rpx; 
+}
+.info_bg.title0{
+   background-image: url('http://pic.gvrcraft.com/pic/title0.png');
+}
+.info_bg.title1{
+   background-image: url('http://pic.gvrcraft.com/pic/title1.png');
+}
+.info_bg.title2{
+   background-image: url('http://pic.gvrcraft.com/pic/title2.png');
+}
+
+.info_bg{
+   
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 880rpx;
+ 
+  /* background-color: red; */
+  position: relative;
+}

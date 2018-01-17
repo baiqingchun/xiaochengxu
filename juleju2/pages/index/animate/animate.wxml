@@ -1,0 +1,28 @@
+<!--pages/index/animate/animate.wxml-->
+<!-- <view animation="{{animationData}}" style="background:red;height:100rpx;width:100rpx"></view>
+<button bindtap='test'>点击</button> -->
+<view class='m-slider'>
+  <view class='cnt' style='left:{{left}}' bindtouchstart='touchstart' bindtouchmove='touchmove' bindtouchend='touchend' animation="{{animationData}}">
+    <!--{{index==0?"noY":(index>0?"intY":"outY")}}  -->
+    <block wx:for="{{list}}" wx:key='key'>
+      <view class='li {{indexSlider==item.index?"noY":(indexSlider>item.index?"intY":"outY")}}'>
+        <image src='{{item.img}}'></image>
+      </view>
+    </block>
+    <!-- <view class='li {{index==0?"noY":(index>0?"intY":"outY")}}'>
+      <image src='http://pic.gvrcraft.com/pic/title0.png'></image>
+    </view>
+    <view class='li {{index==1?"noY":(index>1?"intY":"outY")}}'>
+      <image src='http://pic.gvrcraft.com/pic/title1.png'></image>
+    </view>
+    <view class='li {{index==2?"noY":(index>2?"intY":"outY")}}'>
+      <image src='http://pic.gvrcraft.com/pic/title2.png'></image>
+    </view> -->
+  </view>
+  <view class='icons' >
+    <view wx:for="{{list}}" wx:key='key' class='span {{indexSlider==item.index?"curr":""}}'></view>
+    <!-- <view class='span {{index==0?"curr":""}}'></view>
+    <view class='span {{index==1?"curr":""}}'></view>
+    <view class='span {{index==2?"curr":""}}'></view> -->
+  </view>
+</view>

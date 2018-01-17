@@ -1,0 +1,17 @@
+/* pages/index/animate/animate.wxss */
+.m-slider{width:100%;overflow:hidden;margin-top: 100px;padding-top: 10px}
+.m-slider .cnt{position:relative;left:80px;width:3000px;}
+.m-slider .cnt .li{float:left;width:220px;transition: transform 500ms;}
+.m-slider .cnt image{display:inline-block;width:220px;}
+.m-slider .icons{text-align:center;color:#000;}
+.m-slider .icons .span{margin:0 5px;display: inline-block;width: 10rpx;height: 10rpx;border-radius: 5px;background-color: #6b6a6a}
+.m-slider .icons .curr{background-color:red;}
+.noY{
+    transform: perspective(600px) rotateY(0deg);
+}
+.outY{
+  transform: perspective(600px) rotateY(-30deg);
+}
+.intY{
+   transform: perspective(600px) rotateY(30deg);
+}

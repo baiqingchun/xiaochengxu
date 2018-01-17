@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+ <!-- <loading hidden="{{loadingHidden}}">
+    加载中...
+  </loading> -->
+   <!-- <button bindtap='pay'> 支付</button>  -->
+  <view class='content'>
+    <view class='title0 info_bg' bindtap='toGather' data-info='0'>
+
+    </view>
+     <view class='title1 info_bg' bindtap='toGather' data-info='1'>
+
+    </view>
+     <view class='title2 info_bg' bindtap='toGather' data-info='2'>
+
+    </view>
+  </view>
+</view>

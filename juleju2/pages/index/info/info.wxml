@@ -1,0 +1,12 @@
+<!--pages/index/info/info.wxml-->
+<view class='container'>
+  <view class='title'>
+      <image src='http://pic.gvrcraft.com/pic/info1.png'></image>
+  </view>
+  <view class='content'>
+    <image src='http://pic.gvrcraft.com/pic/info2.png' style='height:1933rpx'></image>
+  </view>
+  <view class='footer'>
+     <button bindtap='changePage'>立即购买</button>
+  </view>
+</view>

@@ -1,0 +1,18 @@
+<!--pages/index/gather/gather.wxml-->
+<view class='container'>
+   <view>
+     <image src='http://pic.gvrcraft.com/pic/gather0.png' bindtap='changePage' data-info='1'></image>
+   </view>
+   <view class='list_container'>
+      <scroll-view scroll-x="true" class='will_list'>
+
+          <block wx:for-items="{{will_list}}" wx:key="key">
+            <view class='list_block' bindtap='showStar' data-info='{{item}}'  bindtap='changePage' data-info='0'>
+              <image src='{{item.img}}' class='img_head'></image>
+              <!-- <text class='name'>{{item.name}}</text>
+              <text class='info'>{{item.role}}</text> -->
+            </view>
+          </block>
+        </scroll-view>
+   </view>
+</view>

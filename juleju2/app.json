@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/gather/gather",
+    "pages/index/info/info",
+    "pages/index/pay/pay",
+    "pages/index/animate/animate"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "聚乐剧",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#6b6a6a",
+    "selectedColor": "#d10000",
+    "borderStyle": "black",
+    "backgroundColor": "#282828",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/image/sy.png",
+        "selectedIconPath": "pages/image/sy_s.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/image/pd.png",
+        "selectedIconPath": "pages/image/pd_s.png",
+        "text": "定制"
+      },
+      {
+        "pagePath": "pages/index/animate/animate",
+        "iconPath": "pages/image/yh.png",
+        "selectedIconPath": "pages/image/yh_s.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
